@@ -1,0 +1,93 @@
+.quick-launch-container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 10%;
+    height: 38px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quick-launch-container .title {
+    display: flex;
+    flex-direction: row;
+    flex-basis: calc(75%/2);
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-launch-container .left-col {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    height: 38px;
+}
+
+.quick-launch-container .right-col {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: 50%;
+    height: 38px;
+}
+
+.quick-launch-container .right-col .menu-item {
+    display: flex;
+    flex-direction: row;
+    height: 38px;
+}
+
+.quick-launch-container .single-col {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 15%;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    background-color: rgb(38, 35, 35);
+    border-radius: 50px;
+}
+
+.todo-container {
+    display: flex;
+    flex-basis: 90%;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100% - 60px);
+}
+
+.hide-dropdown {
+    height: 0px !important;
+    width: 0px !important;
+    font-size: 0px !important;
+}
+
+.quick-launch-container .actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-basis: calc(75%/2);
+}
+
+select {
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 100px;
+    cursor: pointer;
+}
+
+.option {
+    cursor: pointer;
+}
+
+.add-new-todo {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transition: opacity 0.5s, color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.add-new-todo:hover {
+    opacity: 0.5;
+}

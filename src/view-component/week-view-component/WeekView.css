@@ -1,0 +1,108 @@
+weekly-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.week-date-container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 70%;
+}
+
+.week-date-container .btn {
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-block;
+    font-weight: 400;
+    width: 10px !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.week-date-container .btn-week-change {
+    background-color: #f8f9fa;
+    color: #212529;
+    border-color: #f8f9fa;
+}
+
+.week-date-container .btn-week-change:hover {
+    background-color: #b4b7b9;
+    color: #212529;
+    border-color: #b4b7b9;
+}
+
+.week-date-container .date-container {
+    display: flex;
+    flex-direction: column;
+    height: 1.5;
+    flex-basis: calc(100%/7);
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    width: 100%;
+    overflow-y: scroll;
+    align-items: center;
+}
+
+.week-todo-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 20px 20px;
+}
+
+.todo {
+    border-radius: 10px;
+    background-color: #212529;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 10%;
+}
+
+.todo .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo .actions {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s, color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.todo .actions:hover {
+    opacity: 0.5;
+}

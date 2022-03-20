@@ -1,13 +1,129 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #333333;
+  color: #f8f1ff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  height: 100%;
+  margin: 0px;
+  shape-outside: border-box;
+  font-family: sans-serif;
+}
+
+.ws-m-r-10 {
+  margin-right: 10px !important;
+}
+
+.ws-m-l-10 {
+  margin-left: 10px !important;
+}
+
+.ws-m-t-10 {
+  margin-top: 10px !important;
+}
+
+.ws-m-b-10 {
+  margin-bottom: 10px !important;
+}
+
+.ws-p-r-10 {
+  padding-right: 10px !important;
+}
+
+.ws-p-l-10 {
+  padding-left: 10px !important;
+}
+
+.ws-p-t-10 {
+  padding-top: 10px !important;
+}
+
+.ws-p-b-10 {
+  padding-bottom: 10px !important;
+}
+
+.ws-m-r-20 {
+  margin-right: 20px !important;
+}
+
+.ws-m-l-20 {
+  margin-left: 20px !important;
+}
+
+.ws-m-t-20 {
+  margin-top: 20px !important;
+}
+
+.ws-m-b-20 {
+  margin-bottom: 20px !important;
+}
+
+.ws-p-r-20 {
+  padding-right: 20px !important;
+}
+
+.ws-p-l-20 {
+  padding-left: 20px !important;
+}
+
+.ws-p-t-20 {
+  padding-top: 20px !important;
+}
+
+.ws-p-b-20 {
+  padding-bottom: 20px !important;
+}
+
+.btn {
+  cursor: pointer;
+  margin-right: 10px;
+  display: inline-block;
+  font-weight: 400;
+  width: 120px !important;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-quick-launch {
+  background-color: #f8f9fa;
+  color: #212529;
+  border-color: #f8f9fa;
+}
+
+.btn-quick-launch:hover {
+  background-color: #b4b7b9;
+  color: #212529;
+  border-color: #b4b7b9;
+}
+
+.icons {
+  cursor: pointer;
+  font-size: 30px;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, opacity .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.icons:hover {
+  opacity: 0.5;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  height: 100%
 }

@@ -1,0 +1,64 @@
+.new-todo-form {
+    border-radius: 10px;
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.new-todo-form .title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container .title-input {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.new-todo-form .date-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-container .date-input {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.new-todo-form .action-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.action-container .add {
+    background-color: #6d9dc5;
+    color: #212529;
+    border-color: #6d9dc5;
+}
+
+.action-container .add:hover {
+    background-color: #46adaf;
+    color: #212529;
+    border-color: #46adaf;
+}
+
+.action-container .cancel {
+    background-color: #6d9dc5;
+    color: #212529;
+    border-color: #6d9dc5;
+}
+
+.action-container .cancel:hover {
+    background-color: #46adaf;
+    color: #212529;
+    border-color: #46adaf;
+}
