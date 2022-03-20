@@ -11,4 +11,4 @@ Feaures:
 7. All the todos present in either the week view or list view are sorted in ascending order of their dates, and this order is followed even after adding a new todo or deleting a todo.
 8. The app also supports the mobile resolution (Tested in chrome mobile app).
 9. The app has been linked with the github pages and can be accessed with the following link:
-Link: https://nanog0d.github.io/Todo-App/
+https://nanog0d.github.io/Todo-App/
